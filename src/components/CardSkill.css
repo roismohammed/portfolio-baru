@@ -1,0 +1,29 @@
+.img-skil {
+    width: 130px;
+    height: 100px;
+  
+}
+
+.bg-card-skil {
+    box-shadow: 1px 1px 1px 1px white;
+    padding: 30px;
+    border-radius: 10%;
+    background-color: #464346;
+    transition:.5s ease, filter 0.3s;
+}
+
+.bg-card-skil:hover{
+    transform: scale(1.2);
+}
+
+/* @media screen and (max-width: 360px) {
+    .col-md-2 {
+      width: 400px;
+      height: 200px;
+      box-shadow: 1px 1px 1px 1px white;
+      padding: 30px;
+      border-radius: 10%;
+      background-color: #464346;
+    }
+  }
+   */

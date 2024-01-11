@@ -1,0 +1,23 @@
+.tombol {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+    transition: 0.2s;
+}
+
+.text-tombol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+
+    font-style:oblique;
+}
+
+.tombol:hover {
+    box-shadow: none;
+    transition: 0.3s;
+    box-shadow: 0px 0px 8px 4px rgb(110, 110, 3);
+}

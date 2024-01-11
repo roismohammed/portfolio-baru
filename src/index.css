@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+.index-icon {
+    border: 1px solid yellow;
+    display: flex;
+    color: yellow;
+    border-radius: 100%;
+    margin-left: -10px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.index-icon:hover {
+    background-color: yellow;
+    color: black;
+    transition: 0.2s;
+    box-shadow: 0px 0px 3px 2px rgb(229, 229, 145);
+    transform: translateX(-1px);
+}
+
+.namaku:hover {
+    color: yellow;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.text1 {
+    font-family: 'Barlow', sans-serif;
+}
+
+.text2 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+
+.text3 {
+    font-family: 'Lato', sans-serif;
+    margin-top: -10px;
+}
+
+.and {
+    margin-top: -6px;
+}
+
+.foto-index {
+    transition: 0.2s ease-in-out;
+}
+
+.foto-index:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.tombol-index {
+    margin-top: -10px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.foto-index {
+    animation: rotation 4s ease-in-out infinite;
+}
+
+.tangan {
+    height: 30px;
+    width: 0px;
+}
+
+.icon-atas {
+    width: 30px;
+    height: 30px;
+    background: #FFFF00;
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    transition: 0.2s ease-in-out;
+    transform: translateX(10px);
+}
+
+.icon-atas:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 3px 2px rgb(129, 129, 31);
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.stiky-icon {
+    opacity: 1;
+    transition: 0.3s ease-in;
+    animation: fadeOut 1s ease-in forwards;
+    transform: translatex(10px);
+}

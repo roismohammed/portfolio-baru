@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&display=swap');
+
+.judul-header {
+    font-size: 30px !important;
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 30px;
+    color: #FFFF00 !important;
+}
+
+.header {
+    box-shadow: 0 0px 5px 4px rgba(39, 38, 38, 0.2) !important;
+}
+
+
+ul a:hover {
+    color: #FFFF00 !important;
+}
+
+
+.icon-github {
+    width: 22px;
+    height: 22px;
+}
+
+.animasi-header {
+    background-color: #FFFF00;
+    height: 10px;
+}

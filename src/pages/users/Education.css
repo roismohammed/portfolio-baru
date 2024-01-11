@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.judul-education {
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+.icon-education {
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+.text-education{
+    color: yellow;
+}

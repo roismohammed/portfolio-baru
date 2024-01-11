@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.judul-skil {
+    margin-top: 120px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+.text-skil{
+    color: yellow;
+}
+
+.icon-skil {
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
