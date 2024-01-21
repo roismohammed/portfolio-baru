@@ -16,7 +16,7 @@ export default function Project() {
                             data-aos-anchor-placement="center-bottom">
                             <div className="text-white" >
                                 <div className="card card-project text-white p-2 border mt-2"  >
-                                    <img src="src/img/imgProject/notes.png" className="card-img-top" alt="..." />
+                                    <img src="img/imgProject/notes.png" className="card-img-top" alt="..." />
                                     {/* cardbody */}
                                     <div>
                                         <h1 className="card-title mt-2">Notes</h1>
@@ -35,7 +35,7 @@ export default function Project() {
                             data-aos-anchor-placement="center-bottom">
                             <div className="text-white" >
                                 <div className="card card-project text-white p-2 border mt-2" >
-                                    <img src="src/img/imgProject/company.png" className="card-img-top" alt="..." />
+                                    <img src="img/imgProject/company.png" className="card-img-top" alt="..." />
                                     {/* cardbody */}
                                     <div>
                                         <p className="card-title mt-2">Company Profil</p>
@@ -54,7 +54,7 @@ export default function Project() {
                         <div className="col-md-4 mt-2" data-aos="fade-down"
                             data-aos-anchor-placement="center-bottom">                            <div className="text-white" >
                                 <div className="card card-project text-white p-2 border">
-                                    <img src="src/img/imgProject/quran.png" className="card-img-top" alt="..." />
+                                    <img src="img/imgProject/quran.png" className="card-img-top" alt="..." />
                                     {/* cardbody */}
                                     <div>
                                         <p className="card-title mt-2">Al-Quran</p>

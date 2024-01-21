@@ -18,7 +18,7 @@ export default function About() {
 
                         <div className="col-md-4 text-center mt-3 " data-aos="fade-up"
                             data-aos-anchor-placement="center-bottom">
-                            <img src="src/img/roisDev.png" className='img' />
+                            <img src="img/roisDev.png" className='img' />
                         </div>
 
                         <div className="col-md-7 text-white mt-3" data-aos="fade-up"
