@@ -8,11 +8,11 @@ export default function Contact() {
             <div id='contact' style={{ backgroundColor: '#302E30', minHeight: '100vh' }}>
                 <div className="container">
                     <div className="row d-flex justify-content-center text-center">
-                        <div className="text-white judul-contact text-center"data-aos="fade-up">
+                        <div className="text-white judul-contact text-center"data-aos="fade-up" data-aos-duration="1200">
                             <p>Contact <span className='text-contact'>Me Here!</span></p>
                         </div>
 
-                        <div className="col-md-6 p-3" data-aos="fade-down">
+                        <div className="col-md-6 p-3" data-aos="fade-down" data-aos-duration="1200">
                             <div className=' isi-contact'>
                                 <p className='text-white'>  Silakan menghubungi saya langsung di <a href="mailto:id.roismohammed@gmail.com">id.roismohammed@gmail.com</a> atau melalui formulir ini</p>
 

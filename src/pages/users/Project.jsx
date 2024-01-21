@@ -10,10 +10,10 @@ export default function Project() {
                 <div className="container">
                     <div className="row mx-5 ">
                         <div className="text-white text-center judul-project">
-                            <p data-aos="fade-up"><RiComputerFill className='icon-project' /> Latest <span className='text-about'>Project</span></p>
+                            <p data-aos="fade-up" data-aos-duration="1200"><RiComputerFill className='icon-project' /> Latest <span className='text-about'>Project</span></p>
                         </div>
                         <div className="col-md-4 " data-aos="fade-down"
-                            data-aos-anchor-placement="center-bottom">
+                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
                             <div className="text-white" >
                                 <div className="card card-project text-white p-2 border mt-2"  >
                                     <img src="img/imgProject/notes.png" className="card-img-top" alt="..." />
@@ -32,7 +32,7 @@ export default function Project() {
                         </div>
 
                         <div className="col-md-4 " data-aos="fade-down"
-                            data-aos-anchor-placement="center-bottom">
+                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
                             <div className="text-white" >
                                 <div className="card card-project text-white p-2 border mt-2" >
                                     <img src="img/imgProject/company.png" className="card-img-top" alt="..." />
@@ -52,7 +52,7 @@ export default function Project() {
                         </div>
 
                         <div className="col-md-4 mt-2" data-aos="fade-down"
-                            data-aos-anchor-placement="center-bottom">                            <div className="text-white" >
+                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">                            <div className="text-white" >
                                 <div className="card card-project text-white p-2 border">
                                     <img src="img/imgProject/quran.png" className="card-img-top" alt="..." />
                                     {/* cardbody */}
