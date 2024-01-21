@@ -15,7 +15,7 @@ export default function Project() {
                         <div className="col-md-4 " data-aos="fade-down"
                             data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
                             <div className="text-white" >
-                                <div className="card card-project text-white p-2 border mt-2"  >
+                                <div className="card  card-project text-white p-2 border mt-2"  >
                                     <img src="img/imgProject/notes.png" className="card-img-top" alt="..." />
                                     {/* cardbody */}
                                     <div>
@@ -27,6 +27,7 @@ export default function Project() {
                                             <Button text={'Read More'} />
                                         </a>
                                     </div>
+                                   
                                 </div>
                             </div>
                         </div>

@@ -39,7 +39,7 @@ export default function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav text-white ms-auto mb-2 mb-lg-0 gap-3 mx-5">
                             <li className="nav-item animate__animated animate__fadeIn ">
-                                <a className="nav-link active fw-bold fs-3" style={{ color: '#FFFF00' }} aria-current="page" href="#">
+                                <a className="nav-link active fw-bold fs-3" style={{ color: '#FFFF00' }} aria-current="page" href="/">
                                     Home
                                 </a>
                             </li>
