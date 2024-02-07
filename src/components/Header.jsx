@@ -36,8 +36,8 @@ export default function Header() {
                     >
                         <span className="navbar-toggler-icon" />
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav text-white ms-auto mb-2 mb-lg-0 gap-3 mx-5">
+                    <div className="collapse navbar-collapse  " id="navbarSupportedContent">
+                        <ul className="navbar-nav text-white mx-auto mb-2 mb-lg-0 gap-2 mx-5">
                             <li className="nav-item animate__animated animate__fadeIn ">
                                 <a className="nav-link active fw-bold fs-3" style={{ color: '#FFFF00' }} aria-current="page" href="#">
                                     Home
@@ -76,13 +76,13 @@ export default function Header() {
                             </li>
 
 
-                            <li className="nav-item">
-                                <a className='nav-link active ' href="https://github.com/roismohammed" >
+
+                        </ul>
+                            <li className="nav-item text-end d-flex align-items-center">
+                                <a className='nav-link active text-white ' href="https://github.com/roismohammed" >
                                     <RiGithubFill className='icon-github' />
                                 </a>
                             </li>
-
-                        </ul>
                     </div>
                 </div>
             </nav>
