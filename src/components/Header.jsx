@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import './Header.css'
-import { RiGithubFill } from 'react-icons/ri'
+import { RiGithubFill, RiLeafFill, RiLinkedinBoxFill } from 'react-icons/ri'
 import { motion, useScroll, useSpring } from "framer-motion"
 import 'animate.css';
 export default function Header() {
@@ -78,11 +78,20 @@ export default function Header() {
 
 
                         </ul>
+                        <div className='d-flex gap-3'>
                             <li className="nav-item text-end d-flex align-items-center">
                                 <a className='nav-link active text-white ' href="https://github.com/roismohammed" >
+                                    <RiLinkedinBoxFill className='icon-github' />
+                                </a>
+                            </li>
+                            <li className="nav-item text-end d-flex align-items-center">
+                                <a className='nav-link active text-white ' href="https://www.linkedin.com/in/mohammed-rois-8a4a74283/" >
                                     <RiGithubFill className='icon-github' />
                                 </a>
                             </li>
+
+                        </div>
+
                     </div>
                 </div>
             </nav>

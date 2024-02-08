@@ -8,7 +8,7 @@ export default function About() {
     return (
         <Guest>
             <div id="about" style={{ backgroundColor: '#302E30', minHeight: '100vh' }}>
-                <div className="container">
+                <div className="container ">
                     <div className="row mx-5 ">
                         <div className="text-white judul-about ">
                             <p className='text-center' data-aos="flip-down" data-aos-duration="1200">
