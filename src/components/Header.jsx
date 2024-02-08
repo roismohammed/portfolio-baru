@@ -78,7 +78,7 @@ export default function Header() {
 
 
                         </ul>
-                        <div className='d-flex gap-3'>
+                        <div className='d-flex gap-3 icon-header'>
                             <li className="nav-item text-end d-flex align-items-center">
                                 <a className='nav-link active text-white ' href="https://github.com/roismohammed" >
                                     <RiLinkedinBoxFill className='icon-github ' />
