@@ -31,6 +31,6 @@ ul a:hover {
 @media (max-width:768px){
     .icon-header{
         position: relative;
-        left: 10px;
+        left: 8px;
     }
 }
