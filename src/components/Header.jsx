@@ -81,12 +81,12 @@ export default function Header() {
                         <div className='d-flex gap-3'>
                             <li className="nav-item text-end d-flex align-items-center">
                                 <a className='nav-link active text-white ' href="https://github.com/roismohammed" >
-                                    <RiLinkedinBoxFill className='icon-github' />
+                                    <RiLinkedinBoxFill className='icon-github ' />
                                 </a>
                             </li>
                             <li className="nav-item text-end d-flex align-items-center">
                                 <a className='nav-link active text-white ' href="https://www.linkedin.com/in/mohammed-rois-8a4a74283/" >
-                                    <RiGithubFill className='icon-github' />
+                                    <RiGithubFill className='icon-github ' />
                                 </a>
                             </li>
 

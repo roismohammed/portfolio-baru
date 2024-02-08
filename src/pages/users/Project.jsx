@@ -23,11 +23,11 @@ export default function Project() {
                                         <p className="card-text">
                                             Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.
                                         </p>
-                                        <a href="https://rois-notes.netlify.app/">
-                                            <Button text={'Read More'} />
-                                        </a>
                                     </div>
-                                   
+                                    <a href="https://rois-notes.netlify.app/">
+                                        <Button text={'Read More'} />
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -43,10 +43,12 @@ export default function Project() {
                                         <p className="card-text">
                                             Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan Profil perusahaan
                                         </p>
-                                        <a href="https://companyprofil-pttusuksate.netlify.app/">
+
+                                    </div>
+                                    <div className=''>
+                                        <a className='' href="https://companyprofil-pttusuksate.netlify.app/">
                                             <Button text={'Read More'} />
                                         </a>
-
                                     </div>
                                 </div>
                             </div>
@@ -62,10 +64,10 @@ export default function Project() {
                                         <p className="card-text">
                                             Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.
                                         </p>
-                                        <a href="https://alkitab.netlify.app/">
-                                            <Button text={'Read More'} />
-                                        </a>
                                     </div>
+                                    <a href="https://alkitab.netlify.app/">
+                                        <Button text={'Read More'} />
+                                    </a>
                                 </div>
                             </div>
                         </div>
