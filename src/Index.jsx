@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Guest from './layouts/Guest'
 import { Typewriter } from 'react-simple-typewriter'
-import { RiArrowUpFill, RiFacebookFill, RiInstagramFill, RiTwitterFill, RiYoutubeFill } from "react-icons/ri";
+import { RiArrowUpFill, RiFacebookFill, RiInstagramFill, RiTiktokFill, RiTwitterFill, RiYoutubeFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 import './index.css'
 import Button from './components/Button';
@@ -72,16 +72,16 @@ export default function Index() {
 
                     <div className="menu-icon ">
                       <a
-                        href="https://www.youtube.com/channel/UCN7HkTZtjILbDCQzzzHCeWg"
+                        href="https://www.tiktok.com/@roisdev_?_t=8jhHW15U60m&_r=1"
                         className="index-icon">
-                        <RiTwitterFill />
+                        <RiTiktokFill />
                       </a>
                     </div>
 
                     <div className="menu-icon ">
-                      <Link className="index-icon">
+                      <a href='https://www.youtube.com/channel/UCN7HkTZtjILbDCQzzzHCeWg' className="index-icon">
                         <RiYoutubeFill />
-                      </Link>
+                      </a>
                     </div>
                   </div>
 
