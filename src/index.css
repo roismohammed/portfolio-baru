@@ -105,6 +105,7 @@
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
@@ -115,4 +116,12 @@
     transition: 0.3s ease-in;
     animation: fadeOut 1s ease-in forwards;
     transform: translatex(10px);
+}
+
+@media (max-width: 768px) {
+
+    .text1 {
+        margin-top: 60px;
+   
+    }
 }

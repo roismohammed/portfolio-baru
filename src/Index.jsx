@@ -31,7 +31,7 @@ export default function Index() {
             }} initial="hidden"
             animate="visible"
             transition={{ duration: 0.5, delay: 0.25 }}>
-            <div className="row  d-flex mt-4 align-items-center vh-100 mx-md-4 ">
+            <div className="row  d-flex mt-4 align-items-center vh-100 mx-md-4 isi-index ">
               <div className="col-md-7 p-3 ">
                 <div className="text-white ">
                   <h1 className='text1 '>Hello it's me
@@ -46,14 +46,14 @@ export default function Index() {
                         typeSpeed={70}
                         deleteSpeed={50}
                         delaySpeed={1000}
-                        words={['Front-end Developer', 'Programmer', 'Photografer']}
+                        words={['Front-end Dev', 'Programmer', 'Photografer']}
 
                       />
                     </span>
                   </h1>
                   <p className='fs-2 text3'> "Saya seorang Software Engineer junior dari Indonesia yang menggunakan JavaScript dan Framework React.js" Saat ini, saya bekerja sebagai freelancer"</p>
                   {/* icon */}
-                  <div className='d-flex gap-4 mt-3 mx-2'>
+                  <div className='d-flex gap-4 mt-3 mx-2 icon-index'>
                     <div className="menu-icon">
                       <a
                         href="https://web.facebook.com/uhammadrois"
