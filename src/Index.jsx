@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import Guest from './layouts/Guest'
 import { Typewriter } from 'react-simple-typewriter'
-import { RiArrowUpFill, RiFacebookFill, RiInstagramFill, RiTiktokFill, RiTwitterFill, RiYoutubeFill } from "react-icons/ri";
-import { Link } from 'react-router-dom';
+import { RiArrowUpFill, RiFacebookFill, RiInstagramFill, RiTiktokFill, RiYoutubeFill } from "react-icons/ri";
 import './index.css'
 import Button from './components/Button';
 import { motion } from "framer-motion"
@@ -23,7 +22,7 @@ export default function Index() {
   return (
     <Guest>
       <div id='atas' style={{ backgroundColor: '#2B2A2B', minHeight: '100vh' }}>
-        <div className="container" > 
+        <div className="container" >
           <motion.div
             variants={{
               hidden: { opacity: 0, y: -35 },

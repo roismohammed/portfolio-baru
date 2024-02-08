@@ -3,6 +3,7 @@ import Guest from '../../layouts/Guest'
 import './Project.css'
 import { RiComputerFill } from 'react-icons/ri'
 import Button from '../../components/Button'
+import Card from '../../components/Card'
 export default function Project() {
     return (
         <Guest>
@@ -14,62 +15,17 @@ export default function Project() {
                         </div>
                         <div className="col-md-4 " data-aos="fade-down"
                             data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
-                            <div className="text-white" >
-                                <div className="card  card-project text-white p-2 border mt-2"  >
-                                    <img src="img/imgProject/notes.png" className="card-img-top" alt="..." />
-                                    {/* cardbody */}
-                                    <div>
-                                        <h1 className="card-title mt-2">Notes</h1>
-                                        <p className="card-text">
-                                            Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.
-                                        </p>
-                                    </div>
-                                    <a href="https://rois-notes.netlify.app/">
-                                        <Button text={'Read More'} />
-                                    </a>
-
-                                </div>
-                            </div>
+                            <Card gambar={'img/imgProject/notes.png'} judul={'Notes'} deskripsi={'"Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database."'} />
                         </div>
 
                         <div className="col-md-4 " data-aos="fade-down"
                             data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
-                            <div className="text-white" >
-                                <div className="card card-project text-white p-2 border mt-2" >
-                                    <img src="img/imgProject/company.png" className="card-img-top" alt="..." />
-                                    {/* cardbody */}
-                                    <div>
-                                        <p className="card-title mt-2">Company Profil</p>
-                                        <p className="card-text">
-                                            Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan Profil perusahaan
-                                        </p>
-
-                                    </div>
-                                    <div className=''>
-                                        <a className='' href="https://companyprofil-pttusuksate.netlify.app/">
-                                            <Button text={'Read More'} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            <Card gambar={'img/imgProject/company.png'} judul={'Company-Profil'} deskripsi={'"Aplikasi ini dibangun menggunakan teknologi React dan Bootstrap, dengan fokus pada pengembangan antarmuka pengguna (UI) terkait dengan profil perusahaan."'} />
                         </div>
 
-                        <div className="col-md-4 mt-2" data-aos="fade-down"
-                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">                            <div className="text-white" >
-                                <div className="card card-project text-white p-2 border">
-                                    <img src="img/imgProject/quran.png" className="card-img-top" alt="..." />
-                                    {/* cardbody */}
-                                    <div>
-                                        <p className="card-title mt-2">Al-Quran</p>
-                                        <p className="card-text">
-                                            Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.
-                                        </p>
-                                    </div>
-                                    <a href="https://alkitab.netlify.app/">
-                                        <Button text={'Read More'} />
-                                    </a>
-                                </div>
-                            </div>
+                        <div className="col-md-4 " data-aos="fade-down"
+                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
+                            <Card gambar={'img/imgProject/quran.png'} judul={'Al-Quran'} deskripsi={'plikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.'}/>
                         </div>
                     </div>
                 </div>
