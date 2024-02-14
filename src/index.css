@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 
 .index-icon {
-    border: 1px solid yellow;
+    border: 2px solid yellow;
     display: flex;
     color: yellow;
     border-radius: 100%;
@@ -13,14 +13,13 @@
     width: 40px;
     height: 40px;
     transition: 0.3s;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
 }
 
 .index-icon:hover {
-    background-color: yellow;
+    box-shadow: inset 400px 0 0 0 #FFFF00;
     color: black;
-    transition: 0.2s;
-    box-shadow: 0px 0px 3px 2px rgb(229, 229, 145);
-    transform: translateX(-1px);
 }
 
 .namaku:hover {

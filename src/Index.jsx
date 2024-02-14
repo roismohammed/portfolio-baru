@@ -5,6 +5,7 @@ import { RiArrowUpFill, RiFacebookFill, RiInstagramFill, RiTiktokFill, RiYoutube
 import './index.css'
 import Button from './components/Button';
 import { motion } from "framer-motion"
+import ButtonGlow from './components/ButtonGlow';
 export default function Index() {
   const [stikyIcon, setStikyIcon] = useState(false)
 
@@ -85,9 +86,9 @@ export default function Index() {
                   </div>
 
                   {/* tombol */}
-                  <div className='tombol-index'>
+                  <div className='mt-3'>
                     <a href="../rois.pdf">
-                      <Button text={'DOWNLOAD CV'} />
+                      <ButtonGlow/>
                     </a>
                   </div>
                 </div>
