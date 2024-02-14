@@ -36,7 +36,7 @@ export default function Index() {
                 <div className="text-white ">
                   <h1 className='text1 '>Hello it's me
                     <span className='tangan'>👋🏻</span></h1>
-                  <h1 className='text2 d-flex'> Muhammad Rois</h1>
+                  <h1 className='text2 d-flex'> Muhammad_ <span> Rois</span></h1>
                   <h1 className='and'> And i'm a
                     <span className="p-2" style={{ color: 'yellow', fontWeight: 'bold', marginLeft: '10px' }}>
                       <Typewriter
@@ -88,14 +88,14 @@ export default function Index() {
                   {/* tombol */}
                   <div className='mt-3'>
                     <a href="../rois.pdf">
-                      <ButtonGlow nama={'DOWNLOAD CV'}/>
+                      <ButtonGlow nama={'DOWNLOAD CV'} />
                     </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-md-5">
-                <img src="../indexfoto.png" className='foto-index' alt="" />
+                <img src="../indexfoto.png" className='foto-index d-none d-md-block' alt="" />
               </div>
             </div>
           </motion.div>
