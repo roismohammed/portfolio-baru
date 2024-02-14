@@ -88,7 +88,7 @@ export default function Index() {
                   {/* tombol */}
                   <div className='mt-3'>
                     <a href="../rois.pdf">
-                      <ButtonGlow/>
+                      <ButtonGlow nama={'DOWNLOAD CV'}/>
                     </a>
                   </div>
                 </div>
