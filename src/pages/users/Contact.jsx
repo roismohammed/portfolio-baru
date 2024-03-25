@@ -6,7 +6,7 @@ export default function Contact() {
     return (
         <Guest>
             <div id='contact' style={{ backgroundColor: '#302E30', minHeight: '100vh' }}>
-                <div className="container">
+                <div className="container">npm r
                     <div className="row d-flex justify-content-center text-center">
                         <div className="text-white judul-contact text-center"data-aos="fade-up" data-aos-duration="1200">
                             <p>Contact <span className='text-contact'>Me Here!</span></p>
@@ -53,3 +53,7 @@ export default function Contact() {
         </Guest>
     )
 }
+
+
+
+// Perkenalkan nama saya muhammad rois 

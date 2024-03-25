@@ -3,7 +3,6 @@ import Guest from './layouts/Guest'
 import { Typewriter } from 'react-simple-typewriter'
 import { RiArrowUpFill, RiFacebookFill, RiInstagramFill, RiTiktokFill, RiYoutubeFill } from "react-icons/ri";
 import './index.css'
-import Button from './components/Button';
 import { motion } from "framer-motion"
 import ButtonGlow from './components/ButtonGlow';
 export default function Index() {
@@ -94,7 +93,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="col-md-5">
+              <div className="col-md-5 bg-foto-index">
                 <img src="../indexfoto.png" className='foto-index d-none d-md-block' alt="" />
               </div>
             </div>
