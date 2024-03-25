@@ -1,6 +1,6 @@
 import React from 'react'
 import Guest from '../../layouts/Guest'
-import './About.css'
+import '../css/About.css'
 import { RiAccountPinCircleFill } from "react-icons/ri"
 import Button from '../../components/Button'
 // import Button from './components/Button';

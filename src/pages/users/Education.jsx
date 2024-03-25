@@ -1,6 +1,6 @@
 import React from 'react'
 import Guest from '../../layouts/Guest'
-import './Education.css'
+import '../css/Education.css'
 import { RiBriefcaseFill } from 'react-icons/ri'
 import Timeline from '../../components/Timeline'
 export default function Education() {

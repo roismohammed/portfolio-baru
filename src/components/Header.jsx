@@ -61,6 +61,14 @@ export default function Header() {
                                 </a>
                             </li>
 
+
+                            <li className="nav-item animate__animated animate__fadeIn ">
+                                <a className="nav-link active fw-bold fs-3" aria-current="page" href="#experience">
+                                    Experience
+                                </a>
+                            </li>
+
+
                             <li className="nav-item animate__animated animate__fadeIn ">
                                 <a className="nav-link active fw-bold fs-3" aria-current="page" href="#skill">
                                     Skills

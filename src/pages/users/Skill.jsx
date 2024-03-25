@@ -1,6 +1,6 @@
 import React from 'react'
 import Guest from '../../layouts/Guest'
-import './Skill.css'
+import '../css/Skill.css'
 import { RiVipCrownFill } from 'react-icons/ri'
 import Card from '../../components/CardSkill'
 export default function Skill() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Guest from '../../layouts/Guest'
-import './Contact.css'
+import '../css/Contact.css'
 import Button from '../../components/Button'
 export default function Contact() {
     return (

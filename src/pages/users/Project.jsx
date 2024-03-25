@@ -1,6 +1,6 @@
 import React from 'react'
 import Guest from '../../layouts/Guest'
-import './Project.css'
+import '../css/Project.css'
 import { RiComputerFill } from 'react-icons/ri'
 import Button from '../../components/Button'
 import Card from '../../components/Card'
