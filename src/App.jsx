@@ -10,6 +10,7 @@ import Skill from './pages/users/Skill'
 import Contact from './pages/users/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Experience from './pages/users/Experience'
 // ..
 AOS.init();
 
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Project />
       <Education/>
+      <Experience/>
       <Skill/>
       <Contact/>
     </Fragment>
