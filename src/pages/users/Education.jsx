@@ -12,6 +12,7 @@ export default function Education() {
                         <div className="text-white">
                             <p className="judul-education text-center" data-aos="flip-down">
                                 <RiBriefcaseFill className='icon-education' />Educa<span className='text-education'>tion</span>
+
                             </p>
                             <Timeline/>
                         </div>
