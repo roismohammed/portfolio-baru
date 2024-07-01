@@ -17,7 +17,10 @@ export default function Project() {
                             data-aos="fade-down"
                             data-aos-anchor-placement="center-bottom"
                             data-aos-duration="1200">
-                            <Card href={'rois-notes.netlify,app'} gambar={'img/imgProject/notes.png'} judul={'Notes'} deskripsi={'"Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database."'} />
+                            <Card href={'https://rois-notes.netlify.app/'}
+                                gambar={'img/imgProject/notes.png'}
+                                judul={'Notes'}
+                                deskripsi={'"Aplikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database."'} />
                         </div>
 
                         <div className="col-md-4 " data-aos="fade-down"
