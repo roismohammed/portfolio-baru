@@ -24,8 +24,12 @@ export default function Project() {
                         </div>
 
                         <div className="col-md-4 " data-aos="fade-down"
-                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
-                            <Card gambar={'img/imgProject/company.png'} judul={'Company-Profil'} deskripsi={'"Aplikasi ini dibangun menggunakan teknologi React dan Bootstrap, dengan fokus pada pengembangan antarmuka pengguna (UI) terkait dengan profil perusahaan."'} />
+                            data-aos-anchor-placement="center-bottom"
+                            data-aos-duration="1200">
+                            <Card href={'https://companyprofil-pttusuksate.netlify.app/'}
+                                gambar={'img/imgProject/company.png'}
+                                judul={'Company-Profil'}
+                                deskripsi={'"Aplikasi ini dibangun menggunakan teknologi React dan Bootstrap, dengan fokus pada pengembangan antarmuka pengguna (UI) terkait dengan profil perusahaan."'} />
                         </div>
 
                         <div className="col-md-4 " data-aos="fade-down"
