@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Button from './Button'
 
-export default function Card({ judul, deskripsi ,gambar}) {
+export default function Card({ judul, deskripsi ,gambar,href}) {
     return (
         <Fragment>
             <div className="text-white" >
@@ -16,7 +16,7 @@ export default function Card({ judul, deskripsi ,gambar}) {
 
                     </div>
                     <div className=''>
-                        <a className='' href="https://companyprofil-pttusuksate.netlify.app/">
+                        <a className='' href={href}>
                             <Button text={'Read More'} />
                         </a>
                     </div>
