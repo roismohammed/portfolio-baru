@@ -33,8 +33,12 @@ export default function Project() {
                         </div>
 
                         <div className="col-md-4 " data-aos="fade-down"
-                            data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
-                            <Card gambar={'img/imgProject/quran.png'} judul={'Al-Quran'} deskripsi={'plikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.'} />
+                            data-aos-anchor-placement="center-bottom"
+                            data-aos-duration="1200">
+                            <Card href={'https://alkitab.netlify.app/'}
+                                gambar={'img/imgProject/quran.png'}
+                                judul={'Al-Quran'}
+                                deskripsi={'plikasi ini dibangun dengan menggunakan teknologi React dan Bootstrap, yang terkait dengan operasi CRUD (Create, Read, Update, Delete), serta melakukan pengambilan data dari API dan interaksi dengan database.'} />
                         </div>
                     </div>
                 </div>
