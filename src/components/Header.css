@@ -12,6 +12,9 @@
     box-shadow: 0 0px 5px 4px rgba(39, 38, 38, 0.2) !important;
 }
 
+.text-ul{
+    color: #FFFF00 !important;
+}
 
 ul a:hover {
     color: #FFFF00 !important;
