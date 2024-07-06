@@ -37,3 +37,11 @@ ul a:hover {
         left: 8px;
     }
 }
+
+.nav-link {
+  color: white;
+}
+
+.nav-link.active {
+  color: yellow;
+}

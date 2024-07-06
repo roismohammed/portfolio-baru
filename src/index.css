@@ -95,7 +95,7 @@
     color: black;
     padding: 3px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 1px 1px #FFFF00;
     transition: 0.2s ease-in-out;
     transform: translateX(10px);
 }
