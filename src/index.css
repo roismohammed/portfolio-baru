@@ -142,3 +142,24 @@
         height: auto;
     }
 }
+
+.text-scroll {
+    position: relative;
+    top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: textScroll 2s ease infinite;
+}
+
+@keyframes textScroll {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
