@@ -26,6 +26,11 @@ ul a:hover {
     height: 22px;
 }
 
+.icon-github:hover {
+    color: #FFFF00 !important;
+}
+
+
 .animasi-header {
     background-color: #FFFF00;
     height: 10px;
